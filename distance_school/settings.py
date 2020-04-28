@@ -148,9 +148,10 @@ CORS_ORIGIN_WHITELIST = [
     'http://localhost:4200'
 ]
 
-MEDIA_URL = '/media/'
-
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join('media')
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join('static')
